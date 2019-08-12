@@ -1,0 +1,35 @@
+.Job {
+  margin: 5px 10px 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #313039;
+  background: #fff;
+}
+.JobFlags {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.Company {
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+}
+.Location {
+  padding: 0 5px;
+}
+.Country {
+  display: flex;
+  color: #9f9baf;
+}
+.Flag {
+  border-radius: 5px;
+  background-color: orange;
+  display: inline-block;
+  padding: 0 5px;
+  margin: 0 5px;
+  color: #fff;
+  font-size: 12px;
+}

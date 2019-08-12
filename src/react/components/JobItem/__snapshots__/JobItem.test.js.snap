@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobItem should render component 1`] = `
+Array [
+  <div
+    className="Job"
+  >
+    <div>
+      <div
+        className="Title"
+      >
+        Test Job
+      </div>
+      <div
+        className="Company"
+      >
+        Uplearn
+      </div>
+    </div>
+    <div
+      className="JobFlags"
+    >
+      <div
+        className="Country"
+      />
+    </div>
+  </div>,
+]
+`;
