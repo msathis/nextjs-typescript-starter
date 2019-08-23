@@ -1,0 +1,3 @@
+export const REDUX_ASYNC_PENDING = 'PENDING'
+export const REDUX_ASYNC_SUCCESS = 'SUCCESS'
+export const REDUX_ASYNC_FAIL = 'FAIL'
