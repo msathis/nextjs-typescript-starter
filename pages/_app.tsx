@@ -1,11 +1,15 @@
-import App, { Container } from "next/app";
-import React from "react";
-import { Provider } from "react-redux";
-import { ApolloProvider } from "react-apollo";
+import App, { Container } from 'next/app'
+import React from 'react'
+import { Provider } from 'react-redux'
+import { ApolloProvider } from "react-apollo"
 
 import withApolloClient from "../lib/with-apollo-client";
-import configureStore from "../src/redux/store";
-import "./_styles.css";
+import { configureStore } from "../src/redux/store";
+import initilizeAPPHTTPService from '../src/utils/httpService'
+
+import './_styles.css'
+
+initilizeAPPHTTPService()
 
 const store = configureStore();
 

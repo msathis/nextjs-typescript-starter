@@ -1,6 +1,10 @@
-import { combineReducers } from "redux";
-import job from "./job";
+import { combineReducers } from 'redux'
+import entities from './entities'
+import loader from './loader'
+import job from './job'
 
 export default combineReducers({
-    job
-});
+    entities,
+    loader,
+    job,
+})
