@@ -1,7 +1,6 @@
 import getAPIClient from '../utils/APIClient'
 
 const beforeRequestCallback = config => {
-    config.headers['x-auth'] = 'hello'
     return config
 }
 
